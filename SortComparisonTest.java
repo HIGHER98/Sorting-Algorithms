@@ -55,50 +55,5 @@ public class SortComparisonTest
 
 
 	public static void main(String[] args){
-/*   
-    BufferedReader in = new BufferedReader(new FileReader("numbers1000Duplicates.txt"));
-
-
-    //Improve to choose size of array based on input file
-    int i = 0;
-    String line;
-    Comparable[] array = new Comparable[1000];
-    System.out.println("Input size: "+ array.length);
-    while((line = in.readLine()) != null){
-      array[i] = line;
-      i++;
-    }
-    System.out.println("\nBubble Sort");
-    long bubbleBegin = System.nanoTime();   
-    Comparable[] bubbleSorted = bubbleSort(array);
-    long bubbleEnd = System.nanoTime();   
-    System.out.println(bubbleEnd - bubbleBegin);
-
-    System.out.println("\nInsertion Sort");
-    long insertionBegin = System.nanoTime();   
-    Comparable[] insertionSorted = insertionSort(array);
-    long insertionEnd = System.nanoTime();   
-    System.out.println(insertionEnd - insertionBegin);
-
-    System.out.println("\nShell Sort");
-    long shellBegin = System.nanoTime();    
-    Comparable[] shellSorted = shellSort(array);
-    long shellEnd = System.nanoTime();
-    System.out.println(shellEnd - shellBegin);
-
-    System.out.println("\nMerge Sort");
-    long mergeBegin = System.nanoTime();   
-    Comparable[] mergeSorted = mergeSort(array);
-    long mergeEnd = System.nanoTime();   
-    System.out.println(mergeEnd - mergeBegin);
-
-    System.out.println("\nQuickSort");
-    long quickSortBegin = System.nanoTime();   
-    Comparable[] quickSorted = quickSort(array);
-    long quickSortEnd = System.nanoTime(); 
-    System.out.println(quickSortEnd - quickSortBegin);  
-
-    in.close();  
-*/
 	}
 }		
